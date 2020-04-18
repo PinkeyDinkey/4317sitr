@@ -1,0 +1,48 @@
+body{
+    margin: auto;
+    max-width: 1000px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    height: 100px;
+}
+header nav{
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+}
+header h1{
+    float: left;
+}
+main{
+    padding: 15px;
+}
+.main .content{
+    padding: 15px;
+}
+.row{
+    display: flex;
+}
+footer{
+    height:200px;
+    padding: 20px;
+    background-color: #cccccc;
+}
+footer .contact{
+    float: left;
+}
+footer .sitemap{
+    float: right;
+    width: 40%;
+}
+footer .sitemap ul{
+    list-style: none;
+    padding: 0;
+}
+footer .sitemap ul div{
+    float: left;
+    margin: 15px;
+}
